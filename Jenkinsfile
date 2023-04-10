@@ -10,7 +10,7 @@ pipeline {
         
         stage('checkout') {
             steps {
-                git 'https://github.com/Manjunath72/maven-web-application.git'
+                git 'https://github.com/Manjunath72/calcwebapp.git'
             }
         }
         
